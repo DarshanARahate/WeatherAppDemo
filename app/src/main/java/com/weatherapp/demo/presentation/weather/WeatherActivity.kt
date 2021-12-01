@@ -50,7 +50,7 @@ class WeatherActivity : AppCompatActivity() {
                     hashsetResult?.toSortedMap()?.forEach {
 
                         if (count != 5) {
-                            result = result + "\n" + "------ Weather : ${it.key} ---------------\n"
+                            result = result + "\n" + "------ Weather ${edittext_search_city.text.toString() }: ${it.key} ---------------\n"
 
                             it.value.forEach {
                                 result = result + "\n"

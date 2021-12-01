@@ -16,17 +16,19 @@
         android:visibility="gone" />
 
     <EditText
+        android:layout_margin="10dp"
         android:id="@+id/edittext_search_city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter City Name"
-        android:text="Nagpur" />
+        android:hint="Enter City Name" />
 
     <Button
+        android:layout_margin="10dp"
         android:id="@+id/button_search_city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Search City"
+        android:textStyle="bold"
+        android:hint="Search"
         android:textColor="#FFFFFF" />
 
     <ScrollView
